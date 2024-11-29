@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Application
+X-Nemo-Application-Type=silica-qt5
+Icon=pro.wolfnord.Exchange_rate
+Exec=/usr/bin/pro.wolfnord.Exchange_rate
+Name=Exchange_rate
+Name[ru]=Курс валют
+QT += xmlpatterns
+
+[X-Application]
+Permissions=
+OrganizationName=pro.wolfnord
+ApplicationName=Exchange_rate
+ExecDBus=/usr/bin/pro.wolfnord.Exchange_rate
